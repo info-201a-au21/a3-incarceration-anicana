@@ -18,6 +18,7 @@ Welcome to my website report analyzing the incarceration trends in the United St
 ```{r echo=F, warning=F, error=F, message=F}
 print(race_in_jail)
 ```
+
 My first chart above displays all of the races and the number of each incarcerated throughout the years. \
 Through this we can easily view that white people and black people were the two races most incarcerated with black individuals being higher than white for a period. \
 However, from the late 1990s and since then white people have been the most incarcerated. \
@@ -30,10 +31,12 @@ However, I do believe that if the length of prison sentences or the ratio of ove
 ```{r echo=F, warning=F, error=F, message=F}
 print(metro_jail_pop)
 ```
+
 When looking at The Vera Institute [Codebook](https://github.com/vera-institute/incarceration_trends/blob/master/incarceration_trends-Codebook.pdf?raw=true), metropolitan area refers to the [Core-Based Statistical Area (CBSA)](https://www.census.gov/topics/housing/housing-patterns/about/core-based-statistical-areas.html), which is the area of a metropolitan or micropolitan in a county. My variable comparison chart above shows the relationship between the metropolitan size and the number of white individuals within the jail population. While there are no clear, blatant patterns in the chart, this also means that the size of the city does not influence the number of incarcerated white people. This, however, does not imply that mass incarceration does not exist in these cities, this chart simply demonstrates that city size is not an obvious factor. This graph is included in the report to show that regardless of the metropolitan size, some cities have more than 1000 incarcerated whites and vice versa, there are cities with 0 incarcerated whites, with those cities all being different sizes as well. 
 
 # Map
 ```{r echo=F, warning=F, error=F, message=F}
 white_pop_map
 ```
+
 My map above depicts the percentage of incarcerated whites in each county all across America. While a large majority of the map and the counties are filled in with varying shades of blue, some noticeable patters are a cluster of white counties near the center north of our chart. This implies that in those counties there is an extremely low or non-existent percentage of white people in jail there. This could be due to an extremely low caucasian population or even a very low general population as well in those areas. This map was created to show not only the percentage of jailed whites but also show the power of proportion as visualizing multiple, large numbers would be very hard. However, by using percentages, it is much clearer to pick out which counties have low, high, or even 100% of inmates being of the white race.
